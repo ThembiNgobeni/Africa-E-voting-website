@@ -5,6 +5,9 @@
     <meta charset="viewport" content="width=device-width, intitial-scale=1.0">
     <title>E-votind System</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    
 </head> 
 <body>
     <nav class="nav-bar">
@@ -23,11 +26,11 @@
                 <h1>Elections<span class="name-styles"> Africa Rising</h1>
  </body>
 <body>   
- <h2>Voting Section</h2>
+ <h2>User details</details></h2>
  <h3></h3>
  <table border="1"></table>
  <body>
-  <link rel="stylesheet" type="text/css" href="voting.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 
  <div>
     <td>First Name</td><td><input type="text"><br><br>
@@ -49,7 +52,9 @@
     </div>
 
 <div>
-    <td>Candidate Name</td><td><select>  
+    <td>Candidate Name</td>
+    <td>
+        <select id="candidate">
         <option>Name1</option>
         <option>Name2</option>
         <option>Name3</option>
@@ -57,11 +62,16 @@
         <option>Name5</option>
         <option>Name6</option>
         <option>Name7</option>
-        </select>
+
+    </select>
+   </td>                
 </div> 
+
 Candidates images: <input type="file" name="image"><br><br>
 <div>
-    <td>Party</td><td><select>
+    <td>Party</td>
+        <td>
+        <select id="party">
         <option>ANC</option>
         <option>DA</option>
         <option>EFF</option>
@@ -69,10 +79,16 @@ Candidates images: <input type="file" name="image"><br><br>
         <option>COPE</option>
         <option>ZANO PF</option>
         <option>CP</option>
+
         </select>
+     </td>   
 </div>
+
 Party logo: <input type="file" name="file">
-</body>
+
+
 
 </body>   
 </html>
+
+

@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Login form</title>
         <link rel="stylesheet" href="Login.css">
-        <script src="./Login.js" defer></script>
+        <script src="./Login.js" defer type="module"></script>
 
         <div class="container">
             <div id="main">
@@ -20,7 +20,7 @@
                 <a href="#">Sign Up</a>
             </form> 
         </div>
-        <div id="create-account">
+        <!-- <div id="create-account">
     
         <form action="" class="form ">
             <h2>Create Account</h2>
@@ -32,7 +32,19 @@
             <a href="#">Return to Login</a> 
             
         </form>
+        </div> -->
+        <div id="create-account">
+            <form action="" class="form">
+                <h2>Create Account</h2>
+                <input type="email" name="Email" class="box" placeholder="Enter Email">
+                <input type="email" name="ConfirmEmail" class="box" placeholder="Confirm Email">
+                <input type="password" name="password" class="box" placeholder="Password">
+                <input type="password" name="confirmPassword" class="box" placeholder="Confirm Password">
+                <input type="submit" value="Sign Up" id="submit">
+                <a href="#">Return to Login</a>
+            </form>
         </div>
+        
     </div>
     </body> 
 </html>

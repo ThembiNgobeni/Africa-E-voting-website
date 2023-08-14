@@ -82,9 +82,49 @@ body{
     border: none;
 }
 
-#create-account {
-    display: none;
-}
 .form b:hover{
     color: rgb(236, 123, 30);
+}
+
+#create-account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    background-color:  whitesmoke;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 50%;
+}
+
+.form h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.box {
+    display: block;
+    width: 65%;
+    margin-bottom: 1rem;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#submit {
+    background-color:  rgb(236, 123, 30);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: gray;
 }

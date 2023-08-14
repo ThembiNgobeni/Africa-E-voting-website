@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.counter-wrapper {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.counter {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.count {
+    font-size: 36px;
+    margin: 0;
+}
+
+p {
+    margin: 5px 0;
+}
+

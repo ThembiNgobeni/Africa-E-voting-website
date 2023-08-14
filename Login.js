@@ -1,10 +1,11 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-app.js";
-import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-analytics.js";
+import { getDatabase } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-database.js";
 import {
     getAuth,
     CreateUserWithEmailAndPassword,
     signInWithEmailAndPassword,
 } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-auth.js";
+// import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-analytics.js";
 
 const firebaseConfig = {
     apiKey: "AIzaSyCgXUeIQYoqGvR4LYN8VOMwMgEqCBs6lmk",

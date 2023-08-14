@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+
+/* body {
+    font-family: Arial, sans-serif;
+}
+
+.counter-wrapper {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.count {
+    font-size: 36px;
+    margin: 0;
+    color: #333;
+}
+
+p {
+    margin: 5px 0;
+    color: #777;
+}
+
+ */
